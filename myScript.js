@@ -36,6 +36,8 @@ const button  = document.getElementById('init-btn')
 button.addEventListener('click', function(){
     console.log('cliccato');
     //prendo l'elemento grid
+    const gridContainer = document.getElementById('container-grid')
+    gridContainer.className = ' py-5'
     const gridElement = document.getElementById('grid')
     gridElement.innerHTML='';
     //prendo la sezione dove dichiaro il risultato e la resetto
